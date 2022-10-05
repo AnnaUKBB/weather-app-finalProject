@@ -59,10 +59,9 @@ small {
   text-align: left;
   user-select: none;
 }
-,
+
 .units {
   position: relative;
   font-size: 16px;
-  top: 34;
-  color: blue;
+  top: -34px;
 }
