@@ -23,8 +23,9 @@
             <div class="row">
               <div class="col-9">
                 <input
+                  class="enter"
                   type="search"
-                  placeholder="Type a city.."
+                  placeholder="Enter city..."
                   class="form-control"
                   id="city-input"
                   autocomplete="off"
@@ -32,17 +33,19 @@
               </div>
               <div class="col-3">
                 <input
+                  class="search"
                   type="submit"
-                  value="Search"
+                  value="🔎"
                   class="btn btn-primary w-100"
                 />
               </div>
             </div>
           </form>
+          <button class="present-location">My weather</button>
           <div class="overview">
             <h1 id="city"></h1>
             <ul>
-              <li>Last updated: <span id="date"></span></li>
+              <li><span id="date"></span></li>
               <li id="description"></li>
             </ul>
           </div>
@@ -67,11 +70,11 @@
         </div>
         <small>
           <a
-            href="https://github.com/wecodeschool/vanilla-weather-app"
+            href="https://github.com/AnnaUKBB/weather-app-finalProject"
             target="_blank"
             >Open-source code</a
           >
-          by Matt Delac
+          by Anna Loboda
         </small>
       </div>
     </div>
