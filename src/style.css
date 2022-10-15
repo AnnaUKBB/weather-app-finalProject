@@ -17,11 +17,7 @@ body {
   border-color: beige;
   width: 350px;
 }
-.present-location {
-  margin-left: 350px;
-  border-radius: 10px;
-  border-color: #bd9c71;
-}
+
 h1 {
   color: #5a4222;
   font-size: 24px;
